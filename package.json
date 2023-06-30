@@ -1,5 +1,5 @@
 {
-    "name": "TimeInRaidTracker",
+    "name": "time_in_raid_tracker",
     "version": "1.0.1",
     "main": "src/mod.js",
     "license": "MIT",
