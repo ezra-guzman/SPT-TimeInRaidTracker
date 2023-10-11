@@ -44,7 +44,7 @@ class Mod implements IPreAkiLoadMod
                         const raidTimeElapsed = Date.now() - startTime;
                         const profileName = profile.Info.Nickname;
 
-                        const filePath = path.join(process.cwd(), "user", "mods", "plebeianrat-TimeInRaidTracker-1.0.1", `${profileName}-time-tracker.txt`);
+                        const filePath = path.join(process.cwd(), "user", "mods", "plebeianrat-timeinraidtracker-1.0.2", `${profileName}-time-tracker.txt`);
 
                         fs.readFile(filePath, "utf8", async (err, data) =>
                         {
